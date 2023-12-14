@@ -1,0 +1,18 @@
+{
+  "name": "scss-start",
+  "version": "1.0.0",
+  "description": "Scss Start Architecture",
+  "main": "main.scss",
+  "repository": "https://github.com/adorade/scss-start",
+  "author": "Adorade",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "sass main.scss:main.css --no-source-map",
+    "doc": "sassdoc ./**/*.scss -d _docs"
+  },
+  "devDependencies": {
+    "sass": "1.69.5",
+    "sassdoc": "2.7.4"
+  }
+}

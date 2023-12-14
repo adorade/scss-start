@@ -1,0 +1,14 @@
+//
+// This file contains reset/normalize styles.
+// =============================================================================
+
+@use '../core/colors' as color;
+@use '../core/variables' as vars;
+
+//
+// Basic typography style for copy text
+// -----------------------------------------------------------------------------
+body {
+  color: color.$text-color;
+  font: normal 125% / 1.4 vars.$text-font-stack;
+}
