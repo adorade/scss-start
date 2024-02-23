@@ -15,7 +15,7 @@ sass/
    |   |– _placeholders.scss # placeholders helpers
    |   ...                   # Etc.
    |
-   |– _mixins/
+   |– mixins/
    |   |– _index.scss        # Sass Mixins All-In-One
    |   |– _grid.scss         # Grid
    |   |– _buttons.scss      # Buttons
